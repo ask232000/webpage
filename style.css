@@ -1,0 +1,59 @@
+*{
+	box-sizing: border-box}
+.s1{
+	background-color:gray
+}
+.s2{
+	background-color:gray
+}
+.s3{
+	background-color:gray
+}
+.min
+{
+	height:250px;
+	width:30%;
+	float:left;
+	padding:10px;
+	margin:1.5%;
+	padding-top: 0;
+	padding-right: 0;
+	border:solid black;
+	
+
+}
+
+
+div{
+	width: 40%;
+	height: 40px;
+	position:relative;
+	left:60%;
+	background-color: lightgreen;
+    border:solid black;
+    margin: 0px;
+    border-top:none;
+	border-right:none;
+	text-align: center;
+	padding:10px;
+}
+h1{
+	text-align: center;
+	font-size: 4em;
+	text-decoration: underline;
+}
+@media (min-width:768px)and (max-width: 991px){
+	.min{
+		width:45%;
+	}
+	.s3{
+		width:92%;
+	}
+
+}
+@media (max-width:767px){
+   .min{
+   	width: 100%;
+
+   }
+}
